@@ -1,0 +1,34 @@
+{
+  "source_commit": "dfea41c26a1a6123fce979d6c86b5fb7aa90e4d6",
+  "execution": "disabled",
+  "curator": "ofelipepeixoto",
+  "items": [
+    {
+      "path": "skills/building-detection-rules-with-sigma/SKILL.md",
+      "source_url": "https://github.com/liptonj-eng/anthropic-cybersecurity-skills/blob/dfea41c26a1a6123fce979d6c86b5fb7aa90e4d6/skills/building-detection-rules-with-sigma/SKILL.md",
+      "source_sha256": "e9f69ba92923d32764a3acc81df63ea892ffd53204a8575d4f1bc5d05325ae8d",
+      "reviewed_sha256": "e9f69ba92923d32764a3acc81df63ea892ffd53204a8575d4f1bc5d05325ae8d",
+      "declared_author": "mahipal",
+      "license": "Apache-2.0",
+      "allowed_use": "read-only defensive study"
+    },
+    {
+      "path": "skills/implementing-cloud-trail-log-analysis/SKILL.md",
+      "source_url": "https://github.com/liptonj-eng/anthropic-cybersecurity-skills/blob/dfea41c26a1a6123fce979d6c86b5fb7aa90e4d6/skills/implementing-cloud-trail-log-analysis/SKILL.md",
+      "source_sha256": "5eb5a10ae25cb6a5b6723967e880594546c8459e11e5e4bd8353d73948868da5",
+      "reviewed_sha256": "5eb5a10ae25cb6a5b6723967e880594546c8459e11e5e4bd8353d73948868da5",
+      "declared_author": "mahipal",
+      "license": "Apache-2.0",
+      "allowed_use": "read-only defensive study"
+    },
+    {
+      "path": "skills/performing-nist-csf-maturity-assessment/SKILL.md",
+      "source_url": "https://github.com/liptonj-eng/anthropic-cybersecurity-skills/blob/dfea41c26a1a6123fce979d6c86b5fb7aa90e4d6/skills/performing-nist-csf-maturity-assessment/SKILL.md",
+      "source_sha256": "868f8f37bca7e134729a3e25c62cfc114b7021b32d0ab76f373cdf36fb1bc111",
+      "reviewed_sha256": "542d7264271b79fe941483d94754d5dc4a58e36c85a60c06034a7f6a183391f9",
+      "declared_author": "mahipal",
+      "license": "Apache-2.0",
+      "allowed_use": "read-only defensive study"
+    }
+  ]
+}
