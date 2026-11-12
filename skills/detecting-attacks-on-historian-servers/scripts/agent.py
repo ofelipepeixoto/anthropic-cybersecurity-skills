@@ -51,7 +51,7 @@ def check_pi_web_api(host, username=None, password=None):
     results = {"host": host, "checks": []}
 
     try:
-        resp = requests.get(f"{base}/system", auth=auth, verify=False, timeout=10)
+        resp = requests.get(f"{base}/system", auth=auth, verify=True, timeout=10)
         if resp.status_code == 200:
             data = resp.json()
             results["product_version"] = data.get("ProductTitle", "")
@@ -67,7 +67,7 @@ def check_pi_web_api(host, username=None, password=None):
         results["error"] = str(e)
 
     try:
-        resp = requests.get(f"{base}/points", auth=auth, verify=False,
+        resp = requests.get(f"{base}/points", auth=auth, verify=True,
                             params={"maxCount": 10}, timeout=10)
         if resp.status_code == 200:
             points = resp.json().get("Items", [])
